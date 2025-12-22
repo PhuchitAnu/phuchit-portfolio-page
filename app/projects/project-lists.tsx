@@ -8,7 +8,7 @@ export default function ProjectLists() {
     return (
         <div>
             <AnimatedSection>
-                <div id="about" className="max-w-7xl mx-auto py-20 flex flex-col gap-10">
+                <div id="project-lists" className="max-w-7xl mx-auto py-20 flex flex-col gap-10">
 
                     {/* Project Section */}
                     <div className="border-b-2 border-[#1f1f1f] w-full pb-4">

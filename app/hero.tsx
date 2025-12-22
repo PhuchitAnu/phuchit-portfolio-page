@@ -28,8 +28,8 @@ export default function Hero() {
                                 <p className="text-muted-foreground text-lg md:text-xl font-normal leading-relaxed max-w-125">I specialize in building exceptional digital experiences. Currently focused on accessible, human-centered products using modern web technologies.</p>
                             </div>
                             <div className="flex gap-4 pt-10">
-                                <Link href="/projects"><Button className="border-2 border-[#1f1f1f] bg-white text-md text-black hover:scale-110 duration-500 hover:bg-white w-32 h-12">See My Work</Button></Link>
-                                <Link href="/contact"><Button className="border-2 border-[#1f1f1f] bg-black hover:bg-white/10 text-md w-32 h-12 duration-300">Contact Me</Button></Link>
+                                <Link href="/projects"><Button className="border-2 border-[#1f1f1f] bg-white text-md text-black hover:scale-110 duration-500 hover:bg-white w-32 h-12 cursor-pointer">See My Work</Button></Link>
+                                <Link href="/contact"><Button className="border-2 border-[#1f1f1f] bg-black hover:bg-white/10 text-md w-32 h-12 duration-300 cursor-pointer">Contact Me</Button></Link>
                             </div>
                         </div>
                         <div>
