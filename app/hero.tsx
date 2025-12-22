@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { ChevronsLeftRight } from 'lucide-react'
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Hero() {
     return (
@@ -27,8 +28,8 @@ export default function Hero() {
                                 <p className="text-muted-foreground text-lg md:text-xl font-normal leading-relaxed max-w-125">I specialize in building exceptional digital experiences. Currently focused on accessible, human-centered products using modern web technologies.</p>
                             </div>
                             <div className="flex gap-4 pt-10">
-                                <Button className="border-2 border-[#1f1f1f] bg-white text-md text-black hover:scale-110 duration-500 hover:bg-white w-32 h-12"><a href="#projects">See My Work</a></Button>
-                                <Button className="border-2 border-[#1f1f1f] bg-black hover:bg-white/10 text-md w-32 h-12 duration-300"><a href="#contact">Contact Me</a></Button>
+                                <Button className="border-2 border-[#1f1f1f] bg-white text-md text-black hover:scale-110 duration-500 hover:bg-white w-32 h-12"><Link href="/projects">See My Work</Link></Button>
+                                <Button className="border-2 border-[#1f1f1f] bg-black hover:bg-white/10 text-md w-32 h-12 duration-300"><Link href="#contact">Contact Me</Link></Button>
                             </div>
                         </div>
                         <div>
