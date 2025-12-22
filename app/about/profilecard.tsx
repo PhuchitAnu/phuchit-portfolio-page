@@ -1,6 +1,7 @@
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import Image from 'next/image'
+import Link from 'next/link'
 import { FaMapMarkerAlt } from 'react-icons/fa'
 import { FaFacebook, FaGithub, FaInstagram } from 'react-icons/fa6'
 import { FiDownload } from 'react-icons/fi'
@@ -23,15 +24,15 @@ export default function ProfileCard() {
                     <div className="flex flex-col gap-8 items-center pb-8 border-b-2 border-[#444444]">
                         <p className="text-center text-muted-foreground">Building Clean, Responsive, and User-Friendly Interfaces, Accessible Web Experiences. Obsesses with code quality and modern design patterns.</p>
                         <div className="flex gap-6 items-center justify-center text-4xl text-white ">
-                            <a target="_blank" href="https://github.com/PhuchitAnu" className="hover:scale-105 transition-all duration-100">
+                            <Link target="_blank" href="https://github.com/PhuchitAnu" className="hover:scale-105 transition-all duration-100">
                                 <FaGithub />
-                            </a>
-                            <a target="_blank" href="https://www.facebook.com/phuchit.anuchitankul/" className="hover:scale-105 transition-all duration-100">
+                            </Link>
+                            <Link target="_blank" href="https://www.facebook.com/phuchit.anuchitankul/" className="hover:scale-105 transition-all duration-100">
                                 <FaFacebook />
-                            </a>
-                            <a target="_blank" href="https://www.instagram.com/nutt__tt/" className="hover:scale-110 transition-all duration-100">
+                            </Link>
+                            <Link target="_blank" href="https://www.instagram.com/nutt__tt/" className="hover:scale-110 transition-all duration-100">
                                 <FaInstagram />
-                            </a>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex justify-center pt-6">
