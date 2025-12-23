@@ -11,55 +11,62 @@ export default function Technologies() {
         <>
             {/* Technologies Section */}
             <div className="border-b-2 border-[#1f1f1f]">
-                <div className="max-w-7xl mx-auto py-10">
-                    <p className="text-muted-foreground pb-10">TECHNOLOGIES I USE</p>
-                    <div className="flex w-full justify-between">
-                        <Card className="w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300 ">
+                <div className="w-9/10 md:max-w-2xl lg:max-w-7xl mx-auto md:py-10 py-8">
+                    <p className="text-muted-foreground md:pb-10 pb-8">TECHNOLOGIES I USE</p>
+                    <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full justify-between">
+                        <Card className="md:w-38 lg:w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300 ">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
-                                    <RiNextjsFill className="text-white w-12 h-12" />
-                                    <FaReact className="text-white w-12 h-12" />
+                                    <RiNextjsFill className="text-white
+                                     md:w-10 md:h-10 lg:w-12 lg:h-12" />
+                                    <FaReact className="text-white
+                                     md:w-10 md:h-10 lg:w-12 lg:h-12" />
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="text-white">
+                            <CardContent className="text-white lg:text-base md:text-sm">
                                 <p>Next.js, React</p>
                             </CardContent>
                         </Card>
 
-                        <Card className="w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
+                        <Card className="md:w-38 lg:w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
-                                    <FaNode className="text-white w-12 h-12" />
-                                    <SiExpress className="text-white w-12 h-12" />
+                                    <FaNode className="text-white
+                                    md:w-10 md:h-10 lg:w-12 lg:h-12" />
+                                    <SiExpress className="text-white
+                                    md:w-10 md:h-10 lg:w-12 lg:h-12" />
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="text-white">
+                            <CardContent className="text-white lg:text-base md:text-sm">
                                 <p>Node.js, Express</p>
                             </CardContent>
                         </Card>
 
-                        <Card className="w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
+                        <Card className="md:w-38 lg:w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
-                                    <SiMongodb className="text-white w-12 h-12" />
-                                    <BiLogoPostgresql className="text-white w-12 h-12" />
-                                    <SiPrisma className="text-white w-12 h-12" />
+                                    <SiMongodb className="text-white
+                                    md:w-8 md:h-8 lg:w-12 lg:h-12" />
+                                    <BiLogoPostgresql className="text-white
+                                    md:w-8 md:h-8 lg:w-12 lg:h-12" />
+                                    <SiPrisma className="text-white
+                                    md:w-8 md:h-8 lg:w-12 lg:h-12" />
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="text-white">
-                                <p>MongoDB, PostgresSQL, Prisma</p>
+                            <CardContent className="text-white lg:text-base md:text-sm">
+                                <p>MongoDB, PostgreSQL, Prisma</p>
                             </CardContent>
                         </Card>
 
-                        <Card className="w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
+                        <Card className="md:w-38 lg:w-76 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
-                                    <RiTailwindCssFill className="text-white w-12 h-12" />
-                                    <TbBrandFramerMotion className="text-white w-12 h-12" />
+                                    <RiTailwindCssFill className="text-white md:w-10 md:h-10 lg:w-12 lg:h-12" />
+                                    <TbBrandFramerMotion className="text-white md:w-10 md:h-10 lg:w-12 lg:h-12" />
                                 </CardTitle>
                             </CardHeader>
-                            <CardContent className="text-white">
-                                <p>Tailwind, shadcn/ui, Motion</p>
+                            <CardContent className="text-white lg:text-base md:text-sm">
+                                <p>Tailwind, Motion</p>
                             </CardContent>
                         </Card>
 

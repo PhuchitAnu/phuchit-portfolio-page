@@ -64,7 +64,7 @@ export default function ContactBottom() {
                                     <FieldSet>
                                         <FieldGroup>
                                             {/* NAME + EMAIL */}
-                                            <div className="grid grid-cols-2 gap-4">
+                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                                 <Field>
                                                     <FieldLabel className="text-white text-xs">
                                                         YOUR NAME
@@ -159,10 +159,10 @@ export default function ContactBottom() {
                     </form>
 
                 </div>
-                <div className='flex gap-6'>
+                <div className='flex gap-4 md:gap-6'>
                     <div>
                         <Link target="_blank" href="https://github.com/PhuchitAnu/">
-                            <Card className='w-32 border-[#1f1f1f] bg-[#0A0A0A] hover:bg-[#1f1f1f] transition-all duration-300'>
+                            <Card className='w-26 h-26 md:w-52 md:h-52 lg:w-32 lg:h-32 border-[#1f1f1f] bg-[#0A0A0A] hover:bg-[#1f1f1f] transition-all duration-300 flex items-center justify-center'>
                                 <CardContent className='group flex flex-col gap-4 items-center text-white'>
                                     <FaGithub className="text-3xl group-hover:scale-110 transition-all duration-300" />
                                     <h1 className='text-xs'>GitHub</h1>
@@ -172,7 +172,7 @@ export default function ContactBottom() {
                     </div>
                     <div>
                         <Link target="_blank" href="https://linkedin.com/in/phuchit-anu/">
-                            <Card className='w-32 border-[#1f1f1f] bg-[#0A0A0A] hover:bg-[#1f1f1f] transition-all duration-300'>
+                            <Card className='w-26 h-26 md:w-52 md:h-52 lg:w-32 lg:h-32 border-[#1f1f1f] bg-[#0A0A0A] hover:bg-[#1f1f1f] transition-all duration-300 flex items-center justify-center'>
                                 <CardContent className='group flex flex-col gap-4 items-center text-white'>
                                     <FaLinkedin className="text-3xl group-hover:scale-110 transition-all duration-300" />
                                     <h1 className='text-xs'>Linkedin</h1>
@@ -182,7 +182,7 @@ export default function ContactBottom() {
                     </div>
                     <div>
                         <Link target="_blank" href="https://www.instagram.com/nutt__tt/">
-                            <Card className='w-32 border-[#1f1f1f] bg-[#0A0A0A] hover:bg-[#1f1f1f] transition-all duration-300'>
+                            <Card className='w-26 h-26 md:w-52 md:h-52 lg:w-32 lg:h-32 border-[#1f1f1f] bg-[#0A0A0A] hover:bg-[#1f1f1f] transition-all duration-300 flex items-center justify-center'>
                                 <CardContent className='group flex flex-col gap-4 items-center text-white'>
                                     <FaInstagram className="text-3xl group-hover:scale-110 transition-all duration-300" />
                                     <h1 className='text-xs'>Instagram</h1>

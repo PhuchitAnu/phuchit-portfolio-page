@@ -8,23 +8,24 @@ export default function Project() {
         <>
             {/* Projects Section */}
             < div className="border-[#1f1f1f]" >
-                <div id="projects" className="max-w-7xl mx-auto py-20">
+                <div id="projects" className="w-9/10 md:max-w-2xl lg:max-w-7xl mx-auto py-20">
                     <div className="flex justify-between">
-                        <div>
+                        <div className="md:w-7/10 flex flex-col gap-4">
                             <h1 className="text-3xl font-bold">Selected Work </h1>
-                            <p>A glimpse into some of the projects I&apos;ve been working on recently</p>
+                            <p className="text-muted-foreground">A glimpse into some of the projects I&apos;ve been working on recently</p>
                         </div>
-                        <div className="flex items-end">
+                        <div className="items-end md:flex hidden">
                             <Link href="/projects" className="flex gap-2 items-center hover:underline hover:underline-offset-2">
                                 <p className="text-white">See All Projects</p>
                                 <FaArrowRight className="text-white" />
                             </Link>
                         </div>
                     </div>
-                    <div className="pt-10 grid grid-cols-2 gap-10">
+
+                    <div className="pt-10 grid md:grid-cols-2 grid-cold-1 place-items-center gap-10">
 
                         {/* Bookstown */}
-                        <Card className="w-155 bg-black border-0 p-0 gap-2">
+                        <Card className=" md:w-80 lg:w-155 bg-black border-0 p-0 gap-2">
                             <Link target="_blank" href="https://bookstown.vercel.app/">
                                 <CardHeader className="p-0">
                                     <CardTitle className="flex gap-2">
@@ -40,7 +41,7 @@ export default function Project() {
                                 <p className="text-muted-foreground pb-2">
                                     Bookstown is an online bookstore web application designed to showcase books, organize them by category, and provide a simple purchasing experience.
                                 </p>
-                                <div className="flex gap-2 text-md font-semibold">
+                                <div className="flex gap-2 flex-wrap text-md font-semibold">
                                     <p className="px-2 py-1 rounded-md text-muted-foreground bg-[#1f1f1f]">Next</p>
                                     <p className="px-2 py-1 rounded-md text-muted-foreground bg-[#1f1f1f]">Node</p>
                                     <p className="px-2 py-1 rounded-md text-muted-foreground bg-[#1f1f1f]">Express</p>
@@ -52,7 +53,7 @@ export default function Project() {
                         </Card>
 
                         {/* Movie Finder */}
-                        <Card className="w-155 bg-black border-0 p-0 gap-2">
+                        <Card className="md:w-80 lg:w-155 bg-black border-0 p-0 gap-2">
                             <Link target="_blank" href="https://react-project-moviefinder.netlify.app/">
                                 <CardHeader className="p-0">
                                     <CardTitle className="flex gap-2">
@@ -68,7 +69,7 @@ export default function Project() {
                                 <p className="text-muted-foreground pb-2">
                                     Movie Finder is a self-learning React web app that focuses on building a movie search UI with Tailwind CSS and logging search data using Appwrite.
                                 </p>
-                                <div className="flex gap-2 text-md font-semibold">
+                                <div className="flex gap-2 flex-wrap text-md font-semibold">
                                     <p className="px-2 py-1 rounded-md text-muted-foreground bg-[#1f1f1f]">React</p>
                                     <p className="px-2 py-1 rounded-md text-muted-foreground bg-[#1f1f1f]">Node</p>
                                     <p className="px-2 py-1 rounded-md text-muted-foreground bg-[#1f1f1f]">Express</p>
@@ -103,6 +104,13 @@ export default function Project() {
                                 </div>
                             </CardContent>
                         </Card> */}
+                    </div>
+
+                    <div className="md:hidden flex pt-10 items-center justify-center">
+                        <Link href="/projects" className="flex gap-2 items-center hover:underline hover:underline-offset-2">
+                            <p className="text-white">See All Projects</p>
+                            <FaArrowRight className="text-white" />
+                        </Link>
                     </div>
                 </div>
             </div>

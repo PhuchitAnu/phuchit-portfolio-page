@@ -3,14 +3,14 @@ import { RiToolsFill } from "react-icons/ri";
 
 export default function Tools() {
     return (
-        <div className="flex flex-col gap-4 pt-10">
+        <div className="flex flex-col gap-4 pt-10 w-full">
             <div className="flex gap-2 items-center">
                 <RiToolsFill className="text-2xl" />
                 <h1 className="text-2xl font-bold">My Toolkit</h1>
             </div>
-            <div className="flex gap-6">
+            <div className="flex flex-col md:flex-row gap-6">
                 <div className="flex gap-4">
-                    <Card className="bg-[#1f1f1f] border border-[#444444] hover:border-white transition-all duration-250 gap-2">
+                    <Card className="bg-[#1f1f1f] border border-[#444444] hover:border-white transition-all duration-250 gap-2 w-full">
                         <CardHeader>
                             <CardTitle className="pb-2 border-b-2 border-[#444444] text-sm text-muted-foreground">FRONTEND</CardTitle>
                         </CardHeader>
@@ -26,7 +26,7 @@ export default function Tools() {
                     </Card>
                 </div>
                 <div className="flex gap-4">
-                    <Card className="bg-[#1f1f1f] border border-[#444444] hover:border-white transition-all duration-250 gap-2">
+                    <Card className="bg-[#1f1f1f] border border-[#444444] hover:border-white transition-all duration-250 gap-2 w-full">
                         <CardHeader>
                             <CardTitle className="pb-2 border-b-2 border-[#444444] text-sm text-muted-foreground">BACKEND</CardTitle>
                         </CardHeader>

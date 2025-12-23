@@ -10,14 +10,14 @@ export default function Aboutme() {
         <div className="min-h-screen bg-black text-white">
 
             < div className="border-[#1f1f1f]" >
-                <div id="about" className="max-w-7xl mx-auto py-20 flex gap-10">
+                <div id="about" className="w-9/10 md:max-w-2xl lg:max-w-7xl mx-auto py-20 flex flex-col lg:flex-row gap-10">
                     {/* Left Side Profile Card */}
                     <AnimatedSection>
                         <ProfileCard />
                     </AnimatedSection>
 
                     {/* Right Side About Me */}
-                    <div className="flex flex-col text-lg">
+                    <div className="flex flex-col text-lg pt-10 md:pt-0">
                         <AnimatedSection>
                             <AboutMe />
                         </AnimatedSection>

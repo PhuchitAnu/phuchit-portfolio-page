@@ -9,10 +9,10 @@ export default function ProjectTop() {
     return (
         <div className="border-b-2 border-[#1f1f1f]" >
             <AnimatedSection>
-                <div className="max-w-7xl mx-auto py-20 flex justify-between gap-10">
+                <div className="w-9/10 md:max-w-2xl lg:max-w-7xl mx-auto md:py-20 py-10 flex md:flex-col lg:flex-row justify-between md:gap-0 lg:gap-10">
 
-                    <div className="flex flex-col w-180 gap-5">
-                        <h1 className="text-6xl font-bold">Building digitral experiences.</h1>
+                    <div className="flex flex-col md:w-full lg:w-180 gap-5">
+                        <h1 className="text-4xl md:text-6xl font-bold">Building digitral experiences.</h1>
                         <p className="text-lg text-muted-foreground">Junior Full Stack Developer based in Bangkok, Thailand. Specializing in modern web application development using Next.js. and scalable server-side applications using Node.js.</p>
                         <div className="pt-4 flex gap-5 w-full items-center">
                             <Link href="#project-lists">
@@ -32,7 +32,7 @@ export default function ProjectTop() {
                         </div>
                     </div>
                     <div>
-                        <Image src="/images/coding1.png" alt="coding" width={400} height={400} />
+                        <Image src="/images/coding1.png" alt="coding" width={400} height={400} className="md:hidden" />
                     </div>
 
                 </div>

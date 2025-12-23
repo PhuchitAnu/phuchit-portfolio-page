@@ -9,7 +9,7 @@ import { FiDownload } from 'react-icons/fi'
 export default function ProfileCard() {
     return (
         <div>
-            <Card className="w-100 h-160 bg-[#1f1f1f] border-2 border-[#444444]">
+            <Card className="md:w-full lg:w-100 h-full bg-[#1f1f1f] border-2 border-[#444444]">
                 <CardHeader className="flex flex-col gap-6 items-center">
                     <CardTitle>
                         <Image src="/images/self-photo1.png" alt="self" width={175} height={175} className="border-2 border-[#444444] rounded-full object-cover hover:border-white hover:scale-102 transition-all duration-500" />
