@@ -15,7 +15,7 @@ export default function Technologies() {
                     <p className="text-muted-foreground md:pb-10 pb-8">TECHNOLOGIES I USE</p>
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-4 w-full justify-between">
 
-                        <Card className="md:w-38 lg:w-52 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300 ">
+                        <Card className="md:w-38 lg:w-60 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300 ">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
                                     <RiNextjsFill className="text-white
@@ -29,7 +29,7 @@ export default function Technologies() {
                             </CardContent>
                         </Card>
 
-                        <Card className="md:w-38 lg:w-52 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
+                        <Card className="md:w-38 lg:w-60 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
                                     <FaNode className="text-white
@@ -43,7 +43,7 @@ export default function Technologies() {
                             </CardContent>
                         </Card>
 
-                        <Card className="md:w-38 lg:w-52 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
+                        <Card className="md:w-38 lg:w-60 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
                                     <SiMongodb className="text-white
@@ -59,7 +59,7 @@ export default function Technologies() {
                             </CardContent>
                         </Card>
 
-                        <Card className="md:w-38 lg:w-52 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
+                        <Card className="md:w-38 lg:w-60 xl:w-78 h-40 bg-[#050505] border-2 border-[#1f1f1f] hover:border-white transition-colors duration-300">
                             <CardHeader>
                                 <CardTitle className="flex gap-2">
                                     <RiTailwindCssFill className="text-white md:w-10 md:h-10 lg:w-12 lg:h-12" />
@@ -67,7 +67,7 @@ export default function Technologies() {
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="text-white lg:text-base md:text-sm">
-                                <p>Tailwind, Motion</p>
+                                <p>Tailwind, shadcn/ui, Motion</p>
                             </CardContent>
                         </Card>
 
