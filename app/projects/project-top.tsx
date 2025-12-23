@@ -32,7 +32,7 @@ export default function ProjectTop() {
                         </div>
                     </div>
                     <div>
-                        <Image src="/images/coding1.png" alt="coding" width={400} height={400} className="md:hidden" />
+                        <Image src="/images/coding1.png" alt="coding" width={400} height={400} className="hidden lg:block" />
                     </div>
 
                 </div>
