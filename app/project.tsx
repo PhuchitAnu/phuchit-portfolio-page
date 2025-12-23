@@ -22,10 +22,10 @@ export default function Project() {
                         </div>
                     </div>
 
-                    <div className="pt-10 grid md:grid-cols-2 grid-cold-1 place-items-center gap-10">
+                    <div className="pt-10 grid md:grid-cols-2 grid-cols-1 place-self-center gap-10">
 
                         {/* Bookstown */}
-                        <Card className=" md:w-80 lg:w-155 bg-black border-0 p-0 gap-2">
+                        <Card className=" md:w-80 lg:w-125 xl:w-155 bg-black border-0 p-0 gap-2">
                             <Link target="_blank" href="https://bookstown.vercel.app/">
                                 <CardHeader className="p-0">
                                     <CardTitle className="flex gap-2">
@@ -53,7 +53,7 @@ export default function Project() {
                         </Card>
 
                         {/* Movie Finder */}
-                        <Card className="md:w-80 lg:w-155 bg-black border-0 p-0 gap-2">
+                        <Card className="md:w-80 lg:w-125 xl:w-155 bg-black border-0 p-0 gap-2">
                             <Link target="_blank" href="https://react-project-moviefinder.netlify.app/">
                                 <CardHeader className="p-0">
                                     <CardTitle className="flex gap-2">
