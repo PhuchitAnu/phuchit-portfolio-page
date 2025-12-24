@@ -36,10 +36,12 @@ export default function ProfileCard() {
                         </div>
                     </div>
                     <div className="flex justify-center pt-6">
-                        <Button className="flex gap-2 items-center w-full bg-white text-black hover:scale-105 transition-all duration-300 hover:bg-white hover:text-black">
-                            <FiDownload />
-                            <h1>Download CV</h1>
-                        </Button>
+                        <Link href="/Phuchit Anuchitanukul.CV_Full_Stack.pdf" download="Phuchit Anuchitanukul.CV_Full_Stack.pdf" className="w-full hover:scale-105 transition-all duration-300">
+                            <Button className="flex gap-2 items-center w-full bg-white text-black transition-all duration-300 hover:bg-white hover:text-black" >
+                                <FiDownload />
+                                <h1>Download CV</h1>
+                            </Button>
+                        </Link>
                     </div>
                 </CardContent>
             </Card>

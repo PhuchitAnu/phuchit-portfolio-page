@@ -17,7 +17,7 @@ export default function Footer() {
                 </div>
                 <div className='flex md:flex-row flex-col items-center md:items-start justify-between py-5 text-sm text-muted-foreground'>
                     <p>© 2025 Phuchit Anuhitanukul. All rights reserved.</p>
-                    <p className="mt-2 md:mt-0">Designed &amp; Built by Phuchit Anuhitanukul</p>
+                    <p className="mt-2 md:mt-0">Designed &amp; Built by Phuchit Anuchitanukul</p>
                 </div>
             </div>
         </div>
